@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Carto Slider Filter</title>
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+    <link href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/11.1.0/nouislider.min.css" rel="stylesheet">
+    <link href="./styles.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="map-wrapper">
+      <div id="map"></div>
+      <div class="sidebar">
+        <h2>EBPA Results</h2>
+        <h3>Total Score</h3>
+        <div id="price-slider"></div>
+        <h3>Population</h3>
+        <div id="pop-slider"></div>
+<!--          Evenetually we could have a chart or list-->
+        <div class="sidebar-feature-content"></div>
+        
+      </div>
+    </div>
+    <script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://cartodb-libs.global.ssl.fastly.net/carto.js/v4.0.0-beta.25/carto.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/11.1.0/nouislider.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>

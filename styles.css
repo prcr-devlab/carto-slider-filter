@@ -1,0 +1,65 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.map-wrapper {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+#map {
+  position: absolute;
+  height: 100%;
+  width: 75%;
+}
+
+/*
+ * We position the sidebar to the right by using float and setting the width
+ * to 100% - the width of the map, in this case 100% - 75% = 25%
+ */
+.sidebar {
+  background: #eee;
+  float: right;
+  height: 100%;
+  padding: 10px;
+  width: 25%;
+}
+
+.sidebar-footer {
+  margin-top: 75px;
+}
+
+table {
+  border-collapse: collapse;
+}
+table, th, td {
+  border: 1px solid black;
+  text-align: center;
+}
+
+#price-slider {
+  margin-top: 55px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#pop-slider {
+  margin-top: 75px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.noUi-tooltip {
+  background: pink;
+}
