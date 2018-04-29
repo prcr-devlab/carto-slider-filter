@@ -14,9 +14,13 @@
       <div class="sidebar">
         <h2>EBPA Results</h2>
         <h3>Total Score</h3>
-        <div id="price-slider"></div>
+        <div id="price-slider" class="slider"></div>
         <h3>Population</h3>
-        <div id="pop-slider"></div>
+        <div id="pop-slider" class="slider"></div>
+        <h3>Population Density</h3>
+        <div id="pop-density-slider" class="slider"></div>
+        <h3>Opacity (Based on population density)</h3>
+        <div id="pop-density-opacity-slider" class="slider"></div>
 <!--          Evenetually we could have a chart or list-->
         <div class="sidebar-feature-content"></div>
         
@@ -25,6 +29,7 @@
     <script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js"></script>
     <script src="https://cartodb-libs.global.ssl.fastly.net/carto.js/v4.0.0-beta.25/carto.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/11.1.0/nouislider.min.js"></script>
+    <script src="./assets/wNumb.js"></script>
     <script src="./script.js"></script>
   </body>
 </html>

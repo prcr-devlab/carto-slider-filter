@@ -48,18 +48,17 @@ table, th, td {
   text-align: center;
 }
 
-#price-slider {
-  margin-top: 55px;
-  margin-left: 20px;
-  margin-right: 20px;
-}
-
-#pop-slider {
-  margin-top: 75px;
-  margin-left: 20px;
+.slider {
+  margin-left:20px;
   margin-right: 20px;
 }
 
 .noUi-tooltip {
   background: pink;
+}
+.noUi-tooltip {
+  display: none;
+}
+.noUi-active .noUi-tooltip {
+  display: block;
 }
